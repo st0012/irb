@@ -588,6 +588,7 @@ module TestIRB
             "\n",
           )
 
+          puts out
           # the former is what we'd get without document content installed, like on CI
           # the latter is what we may get locally
           possible_rdoc_output = [/Nothing known about String#gsub/, /gsub\(pattern\)/]
