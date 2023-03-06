@@ -22,7 +22,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Set up latest ruby head
-        uses: ruby/setup-ruby@de6f5b9c340068d049670c6b6ae8dc94cff4667a # v1.125.0
+        uses: ruby/setup-ruby@31a7f6d628878b80bc63375a93ae079ec50a1601 # v1.143.0
         with:
           ruby-version: head
           bundler: none
